@@ -35,5 +35,11 @@ namespace Monday.Client.Models
         /// </summary>
         [JsonProperty("additional_info")]
         public string Information { get; set; }
+
+        /// <summary>
+        ///     The column value's display value. [JSON]
+        /// </summary>
+        [JsonProperty("display_value")]
+        public string DisplayValue { get; set; }
     }
 }
